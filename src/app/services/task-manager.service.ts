@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage-angular';
-import { Task } from './task';
+import { Task } from '../class/task';
 
 @Injectable({
   providedIn: 'root'
