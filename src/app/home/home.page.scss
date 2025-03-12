@@ -25,3 +25,9 @@
 #container a {
   text-decoration: none;
 }
+
+.selected-task {
+  background-color: #0080ff; /* Azul claro */
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}

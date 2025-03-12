@@ -5,8 +5,8 @@ export class Task {
         public description?: string,
         public completed: boolean = false
     ) {}
-
-    toggleStatus() { 
+    
+    async toggleStatus() { 
         this.completed = !this.completed
     }
 }
